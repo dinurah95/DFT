@@ -1,0 +1,38 @@
+
+CalculationMode = gs
+UnitsOutput = ev_angstrom
+ExperimentalFeatures = yes
+
+PeriodicDimensions = 2
+
+Spacing = 0.20*angstrom
+
+BNlength = 1.445*angstrom
+a = sqrt(3)*BNlength
+L = 55
+%LatticeParameters
+ a | a | L
+ %
+
+%LatticeVectors
+  1.0 | 0.0       | 0.0
+ -1/2 | sqrt(3)/2 | 0.0
+  0.0 | 0.0       | 1.0
+   %
+
+%ReducedCoordinates
+ 'B' | 0.0 | 0.0 | 0.0
+ 'N' | 1/3 | 2/3 | 0.0
+%
+
+PseudopotentialSet = hgh_lda
+
+LCAOStart = lcao_states
+
+%KPointsGrid
+ 16 | 16 | 1
+%
+KPointsUseSymmetries = yes
+%Output
+ dos
+%

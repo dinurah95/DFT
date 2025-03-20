@@ -1,0 +1,393 @@
+    <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+                                ___
+                             .-'   `'.
+                            /         \
+                            |         ;
+                            |         |           ___.--,
+                   _.._     |0) ~ (0) |    _.---'`__.-( (_.
+            __.--'`_.. '.__.\    '--. \_.-' ,.--'`     `""`
+           ( ,.--'`   ',__ /./;   ;, '.__.'`    __
+           _`) )  .---.__.' / |   |\   \__..--""  """--.,_
+          `---' .'.''-._.-'`_./  /\ '.  \ _.-~~~````~~~-._`-.__.'
+                | |  .' _.-' |  |  \  \  '.               `~---`
+                 \ \/ .'     \  \   '. '-._)
+                  \/ /        \  \    `=.__`~-.
+             jgs  / /\         `) )    / / `"".`\
+            , _.-'.'\ \        / /    ( (     / /
+             `--~`   ) )    .-'.'      '.'.  | (
+                    (/`    ( (`          ) )  '-;
+                     `      '-;         (-'
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2, or (at your option)
+    any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+
+    <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+                           Running octopus
+
+Version                : 13.0
+Commit                 :
+Configuration time     : Fri Apr  5 10:21:57 EDT 2024
+Configuration options  : maxdim3 sse2 libxc_fxc libxc_kxc
+Optional libraries     :
+Architecture           : x86_64
+C compiler             : gcc
+C compiler flags       : -g -O2
+C++ compiler           : g++
+C++ compiler flags     : -g -O2
+Fortran compiler       : gfortran (GCC version 11.4.0)
+Fortran compiler flags : -pipe -O3 -funroll-loops -ffast-math -ffree-line-length-none
+
+           The octopus is swimming in 1707-R-18JD22 (Linux)
+
+
+            Calculation started on 2025/03/16 at 12:58:56
+
+
+************************** Calculation Mode **************************
+Input: [CalculationMode = gs]
+**********************************************************************
+
+
+******************************* Space ********************************
+Octopus will run in 3 dimension(s).
+Octopus will treat the system as periodic in 3 dimension(s).
+**********************************************************************
+
+Input: [AllElectronType = no]
+Input: [PseudopotentialSet = standard]
+Reading Coordinates from ReducedCoordinates block
+
+****************************** Species *******************************
+  Species 'Si'
+    type             : pseudopotential
+    file             : '/home/alarod/lib/octopus-13.0/share/octopus/pseudopotentials/PSF/Si.psf'
+    file format      : PSF
+    valence charge   : 4.0
+    atomic number    :  14
+    form on file     : semilocal
+    orbital origin   : calculated
+    lmax             : 2
+    llocal           : 0
+    projectors per l : 1
+    total projectors : 2
+    application form : kleinman-bylander
+    orbitals         : 16
+    bound orbitals   :  4
+
+**********************************************************************
+
+
+***************************** Symmetries *****************************
+Space group No.  227
+International: Fd-3m
+Schoenflies: Oh^7
+  Index                Rotation matrix                      Fractional translations
+    1 :     1   0   0     0   1   0     0   0   1      0.000000    0.000000    0.000000
+    2 :     0  -1   1     0  -1   0     1  -1   0      0.000000    0.000000    0.000000
+    3 :    -1   0   0    -1   0   1    -1   1   0      0.000000    0.000000    0.000000
+    4 :     0   1  -1     1   0  -1     0   0  -1      0.000000    0.000000    0.000000
+    5 :    -1   1   0    -1   0   0    -1   0   1      0.000000    0.000000    0.000000
+    6 :     0   0   1     1   0   0     0   1   0      0.000000    0.000000    0.000000
+    7 :     1  -1   0     0  -1   1     0  -1   0      0.000000    0.000000    0.000000
+    8 :     0   0  -1     0   1  -1     1   0  -1      0.000000    0.000000    0.000000
+    9 :     0  -1   0     1  -1   0     0  -1   1      0.000000    0.000000    0.000000
+   10 :    -1   0   1    -1   1   0    -1   0   0      0.000000    0.000000    0.000000
+   11 :     0   1   0     0   0   1     1   0   0      0.000000    0.000000    0.000000
+   12 :     1   0  -1     0   0  -1     0   1  -1      0.000000    0.000000    0.000000
+   13 :     0   0  -1     1   0  -1     0   1  -1      0.000000    0.000000    0.000000
+   14 :    -1   1   0    -1   0   1    -1   0   0      0.000000    0.000000    0.000000
+   15 :     1  -1   0     0  -1   0     0  -1   1      0.000000    0.000000    0.000000
+   16 :     0   0   1     0   1   0     1   0   0      0.000000    0.000000    0.000000
+   17 :     1   0  -1     0   1  -1     0   0  -1      0.000000    0.000000    0.000000
+   18 :     0  -1   0     0  -1   1     1  -1   0      0.000000    0.000000    0.000000
+   19 :     0   1   0     1   0   0     0   0   1      0.000000    0.000000    0.000000
+   20 :    -1   0   1    -1   0   0    -1   1   0      0.000000    0.000000    0.000000
+   21 :     0   1  -1     0   0  -1     1   0  -1      0.000000    0.000000    0.000000
+   22 :     1   0   0     0   0   1     0   1   0      0.000000    0.000000    0.000000
+   23 :    -1   0   0    -1   1   0    -1   0   1      0.000000    0.000000    0.000000
+   24 :     0  -1   1     1  -1   0     0  -1   0      0.000000    0.000000    0.000000
+Info: The system has    24 symmetries that can be used.
+**********************************************************************
+
+
+** Warning:
+**   The spacing has been modified to make it commensurate with the periodicity of the system.
+
+Input: [CurvMethod = curv_affine]
+Input: [DerivativesStencil = stencil_stargeneral]
+
+****************************** Lattice *******************************
+  Lattice Vectors [b]
+    0.000000    5.090000    5.090000
+    5.090000    0.000000    5.090000
+    5.090000    5.090000    0.000000
+  Cell volume =           263.7445 [b^3]
+  Reciprocal-Lattice Vectors [b^-1]
+   -0.617209    0.617209    0.617209
+    0.617209   -0.617209    0.617209
+    0.617209    0.617209   -0.617209
+  Cell angles [degree]
+    alpha =   60.000
+    beta  =   60.000
+    gamma =   60.000
+**********************************************************************
+
+Checking if the generated full k-point grid is symmetric
+
+     2 k-points generated from parameters :
+ ---------------------------------------------------
+    n =    2    2    2
+
+    s1  =  0.50  0.50  0.50
+
+    s2  =  0.50  0.00  0.00
+
+    s3  =  0.00  0.50  0.00
+
+    s4  =  0.00  0.00  0.50
+
+   index |      weight  |             coordinates              |
+       1 |     0.250000 |    0.250000    0.000000    0.000000  |
+       2 |     0.750000 |   -0.250000    0.250000    0.250000  |
+
+Input: [SpinComponents = unpolarized]
+Input: [SmearingFunction = semiconducting]
+Input: [SymmetrizeDensity = yes]
+
+******************************* States *******************************
+Total electronic charge  =        8.000
+Number of states         =        5
+States block-size        =        4
+**********************************************************************
+
+
+************************** Parallelization ***************************
+Info: Octopus will run in *serial*
+**********************************************************************
+
+Info: Generating weights for finite-difference discretization of x-gradient
+Info: Generating weights for finite-difference discretization of y-gradient
+Info: Generating weights for finite-difference discretization of z-gradient
+Info: Generating weights for finite-difference discretization of Laplacian
+
+******************************** Grid ********************************
+Simulation Box:
+  Type = parallelepiped
+  Lengths [b] = (   7.198,   7.198,   7.198)
+Main mesh:
+  Spacing [b] = ( 0.514, 0.514, 0.514)    volume/point [b^3] =      0.09612
+  # inner mesh =       2744
+  # total mesh =       9192
+  Grid Cutoff [H] =    18.666387    Grid Cutoff [Ry] =    37.332774
+**********************************************************************
+
+Info: states-block size = 0.3 MiB
+Input: [StatesPack = yes]
+Input: [StatesOrthogonalization = cholesky_serial]
+Info: the XCFunctional has been selected to match the pseudopotentials
+      used in the calculation.
+
+** Warning:
+**   The versions 4.* of the libxc library are deprecated
+**   and the support for them will be removed in the next major release of Octopus.
+
+
+**************************** Theory Level ****************************
+Input: [TheoryLevel = kohn_sham]
+
+Exchange-correlation:
+  Exchange
+    Slater exchange (LDA)
+    [1] P. A. M. Dirac, Math. Proc. Cambridge Philos. Soc. 26, 376 (1930)
+    [2] F. Bloch, Z. Phys. 57, 545 (1929)
+  Correlation
+    Perdew & Zunger (Modified) (LDA)
+    [1] J. P. Perdew and A. Zunger, Phys. Rev. B 23, 5048 (1981), modified to improve the matching between the low- and high-rs
+
+**********************************************************************
+
+
+****************************** Hartree *******************************
+Input: [DressedOrbitals = no]
+The chosen Poisson solver is 'fast Fourier transform'
+Input: [PoissonFFTKernel = fft_nocut]
+**********************************************************************
+
+Info: FFT grid dimensions       = 14 x 14 x 14
+      Total grid size           = 2744 (      0.0 MiB )
+Input: [FilterPotentials = filter_TS]
+Info: Pseudopotential for Si
+  Radii for localized parts:
+    local part     =  2.9 b
+    non-local part =  2.6 b
+    orbitals       = 10.8 b
+
+Input: [RelativisticCorrection = non_relativistic]
+Input: [DFTULevel = dft_u_none]
+Input: [MagneticConstrain = 0]
+
+****************** Approximate memory requirements *******************
+Mesh
+  global  :       0.1 MiB
+  local   :       0.4 MiB
+  total   :       0.5 MiB
+
+States
+  real    :       0.7 MiB (par_kpoints + par_states + par_domains)
+  complex :       1.4 MiB (par_kpoints + par_states + par_domains)
+
+**********************************************************************
+
+Info: Generating external potential
+      done.
+Info: Octopus initialization completed.
+Info: Starting calculation mode.
+Info: Allocating ground state wave-functions
+Info: Blocks of states
+      Block       1 contains       4 states:       1 -       4
+      Block       2 contains       1 states:       5 -       5
+Info: Ground-state allocation done.
+Info: Ground-state restart information will be read from 'restart/gs'.
+
+             Info: Reading states. 2025/03/16 at 12:58:57
+
+ETA: .......1......2.......3......4......5.......6......7.......8......9......0
+
+          Info: States reading done. 2025/03/16 at 12:58:57
+
+Input: [MixField = potential] (what to mix during SCF cycles)
+Input: [MixingScheme = broyden]
+Info: Mixing uses    4 steps and restarts after   20 steps.
+
+**************************** Eigensolver *****************************
+Input: [Eigensolver = cg]
+Input: [Preconditioner = pre_filter]
+Info: Generating weights for finite-difference discretization of Preconditioner
+Input: [PreconditionerFilterFactor = 0.6000]
+Input: [SubspaceDiagonalization = standard]
+**********************************************************************
+
+Info: Setting up Hamiltonian.
+
+** Warning:
+**   Symmetrization discrepancy ratio (scalar) =  1.82438E-01
+
+Info: Ground-state restart information will be written to 'restart/gs'.
+Info: SCF using complex wavefunctions.
+Info: Starting SCF iteration.
+ETA: .......1......2.......3......4......5.......6......7.......8......9......0
+
+** Warning:
+**   Symmetrization discrepancy ratio (scalar) =  1.82438E-01
+
+
+
+*********************** SCF CYCLE ITER #    1 ************************
+ etot  = -7.92933287E+00 abs_ev   =  5.97E-08 rel_ev   =  2.42E-07
+ ediff =        7.30E-08 abs_dens =  2.07E-07 rel_dens =  2.59E-08
+Matrix vector products:     30
+Converged eigenvectors:     10
+
+#  State  KPoint  Eigenvalue [H]  Occupation    Error
+      1       1       -0.257170    2.000000   ( 2.7E-08)
+      1       2       -0.184858    2.000000   ( 3.3E-08)
+      2       2       -0.079342    2.000000   ( 3.1E-08)
+      2       1        0.010753    2.000000   ( 3.7E-08)
+      3       2        0.023125    2.000000   ( 5.0E-08)
+      4       2        0.073568    2.000000   ( 5.1E-08)
+      3       1        0.127870    2.000000   ( 4.6E-08)
+      4       1        0.127870    2.000000   ( 4.6E-08)
+      5       2        0.208835    0.000000   ( 7.4E-08)
+      5       1        0.231963    0.000000   ( 5.8E-08)
+
+Density of states:
+
+----------%--------------%--------------%------%------------------%---
+----------%--------------%--------------%------%------------------%---
+----------%--------------%--------------%------%------------------%---
+----------%--------------%--------------%------%------%-----------%---
+----------%--------------%--------------%------%------%-----------%---
+----------%--------------%--------------%------%------%-----------%---
+----------%--------------%--------------%------%------%-----------%---
+%---------%--------------%------------%-%------%------%-----------%--%
+%---------%--------------%------------%-%------%------%-----------%--%
+%---------%--------------%------------%-%------%------%-----------%--%
+                                                      ^
+
+
+Elapsed time for SCF step     1:          0.05
+**********************************************************************
+
+ETA: .......1......2.......3......4......5.......6......7.......8......9......0
+
+** Warning:
+**   Symmetrization discrepancy ratio (scalar) =  1.82438E-01
+
+
+
+*********************** SCF CYCLE ITER #    2 ************************
+ etot  = -7.92933287E+00 abs_ev   =  4.00E-09 rel_ev   =  1.62E-08
+ ediff =        1.86E-09 abs_dens =  9.09E-08 rel_dens =  1.14E-08
+Matrix vector products:     30
+Converged eigenvectors:     10
+
+#  State  KPoint  Eigenvalue [H]  Occupation    Error
+      1       1       -0.257170    2.000000   ( 1.1E-08)
+      1       2       -0.184858    2.000000   ( 1.7E-08)
+      2       2       -0.079342    2.000000   ( 2.6E-08)
+      2       1        0.010753    2.000000   ( 2.6E-08)
+      3       2        0.023125    2.000000   ( 4.0E-08)
+      4       2        0.073568    2.000000   ( 3.7E-08)
+      3       1        0.127870    2.000000   ( 5.3E-08)
+      4       1        0.127870    2.000000   ( 5.3E-08)
+      5       2        0.208835    0.000000   ( 6.0E-08)
+      5       1        0.231963    0.000000   ( 5.1E-08)
+
+Density of states:
+
+----------%--------------%--------------%------%------------------%---
+----------%--------------%--------------%------%------------------%---
+----------%--------------%--------------%------%------------------%---
+----------%--------------%--------------%------%------%-----------%---
+----------%--------------%--------------%------%------%-----------%---
+----------%--------------%--------------%------%------%-----------%---
+----------%--------------%--------------%------%------%-----------%---
+%---------%--------------%------------%-%------%------%-----------%--%
+%---------%--------------%------------%-%------%------%-----------%--%
+%---------%--------------%------------%-%------%------%-----------%--%
+                                                      ^
+
+
+Elapsed time for SCF step     2:          0.05
+**********************************************************************
+
+
+             Info: Writing states. 2025/03/16 at 12:58:57
+
+
+        Info: Finished writing states. 2025/03/16 at 12:58:57
+
+Info: SCF converged in    2 iterations
+
+Info: Number of matrix-vector products:         60
+Info: Writing output to static/
+Info: Finished reading information from 'restart/gs'.
+Info: Finished writing information to 'restart/gs'.
+
+             Calculation ended on 2025/03/16 at 12:58:57
+
+                          Walltime:  01.121s
+
+Octopus emitted 5 warnings.
